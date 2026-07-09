@@ -36,8 +36,8 @@ export default function Navbar() {
     >
       <div className="w-full flex justify-between items-center">
         {/* Logo */}
-        <a href="#home" className="text-[24px] font-serif tracking-[4px] font-medium text-text-heading uppercase z-50">
-          {settings?.business_name || 'CLICK VICK FILMS'}
+        <a href="#home" className="flex items-center z-50">
+          <img src="/cv.logo.png" alt={settings?.business_name || 'CLICK VICK FILMS'} className="h-[65px] md:h-[85px] object-contain" />
         </a>
 
         {/* Desktop Nav */}
