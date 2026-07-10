@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { openWhatsApp } from '../utils/whatsapp';
 import { useSupabase } from '../context/SupabaseContext';
-import logo from '../assets/CVFLOGO.jpg';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,7 +37,7 @@ export default function Navbar() {
       <div className="w-full flex justify-between items-center">
         {/* Logo */}
         <a href="#home" className="flex items-center z-50">
-          <img src={logo} alt={settings?.business_name || 'CLICK VICK FILMS'} className="h-[87px] w-[256.675px] object-contain" fetchPriority="high" loading="eager" />
+          <img src="https://oyddyqlqsxquzcbikpez.supabase.co/storage/v1/object/public/gallery/CVFLOGO.jpg" alt={settings?.business_name || 'CLICK VICK FILMS'} className="h-[78px] md:h-[98px] object-contain" fetchPriority="high" loading="eager" />
         </a>
 
         {/* Desktop Nav */}
