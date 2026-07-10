@@ -37,7 +37,13 @@ export default function Navbar() {
       <div className="w-full flex justify-between items-center">
         {/* Logo */}
         <a href="#home" className="flex items-center z-50">
-          <img src="https://oyddyqlqsxquzcbikpez.supabase.co/storage/v1/object/public/gallery/CVFLOGO.jpg" alt={settings?.business_name || 'CLICK VICK FILMS'} className="h-[78px] md:h-[98px] object-contain" fetchPriority="high" loading="eager" />
+          <img
+            src="https://oyddyqlqsxquzcbikpez.supabase.co/storage/v1/object/public/gallery/CVFLOGO.jpg"
+            alt="CLICK VICK FILMS"
+            className="h-[78px] md:h-[98px] object-contain"
+            loading="eager"
+            fetchPriority="high"
+          />
         </a>
 
         {/* Desktop Nav */}
