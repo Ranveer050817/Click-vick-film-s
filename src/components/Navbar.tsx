@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { openWhatsApp } from '../utils/whatsapp';
 import { useSupabase } from '../context/SupabaseContext';
-import logo from '../assets/cvf.jpg';
+import logo from '../assets/CVFLOGO.jpg';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
